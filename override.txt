@@ -1,0 +1,16 @@
+# ======================
+# OhCeeDee overrides.txt
+# ======================
+# *...Eftersom symboliska länkar är för smart för Minetest...*
+# Shit ton of override rules to alias textures.
+
+# ---------------
+# Mineclone2-like
+# ---------------
+
+# What's the difference between aspen and birch anyways?
+mcl_core:birchtree sides default_aspen_tree.png
+mcl_core:birchtree top,bottom default_aspen_tree_top.png
+mcl_core:birchleaves all default_aspen_leaves.png
+mcl_core:birchleaves special1 default_aspen_leaves_simple.png
+mcl_core:birchwood all default_aspen_wood.png
