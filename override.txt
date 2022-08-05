@@ -1,8 +1,24 @@
 # ======================
 # OhCeeDee overrides.txt
 # ======================
-# *...Eftersom symboliska länkar är för smart för Minetest...*
+# *...Eftersom symboliska länkar är för smart för Minetest... Och mer...*
 # Shit ton of override rules to alias textures.
+
+# ------------------
+# Minetest Game-like
+# ------------------
+default:fence_wood * default_wood.png
+default:fence_pine_wood * default_pine_wood.png
+default:fence_aspen_wood * default_aspen_wood.png
+default:fence_acacia_wood * default_acacia_wood.png
+
+default:fence_rail_wood * default_wood.png
+default:fence_rail_pine_wood * default_pine_wood.png
+default:fence_rail_aspen_wood * default_aspen_wood.png
+default:fence_rail_acacia_wood * default_acacia_wood.png
+
+
+
 
 # ---------------
 # Mineclone2-like
