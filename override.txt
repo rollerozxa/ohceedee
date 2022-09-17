@@ -2,7 +2,7 @@
 # OhCeeDee overrides.txt
 # ======================
 # *...Eftersom symboliska länkar är för smart för Minetest... Och mer...*
-# Shit ton of override rules to alias textures.
+# Shit ton of override rules to alias textures. And (un)witty comments to go along.
 
 # ------------------
 # Minetest Game-like
@@ -30,3 +30,36 @@ mcl_core:birchtree top,bottom default_aspen_tree_top.png
 mcl_core:birchleaves all default_aspen_leaves.png
 mcl_core:birchleaves special1 default_aspen_leaves_simple.png
 mcl_core:birchwood all default_aspen_wood.png
+
+# Ores
+mcl_core:stone_with_coal all default_stone.png^default_mineral_coal.png
+mcl_core:stone_with_iron all default_stone.png^default_mineral_iron.png
+mcl_core:stone_with_gold all default_stone.png^default_mineral_gold.png
+mcl_core:stone_with_diamond all default_stone.png^default_mineral_diamond.png
+mcl_core:stone_with_emerald all default_stone.png^mcl_core_mineral_emerald.png
+mcl_core:stone_with_redstone all default_stone.png^mcl_core_mineral_redstone.png
+mcl_core:stone_with_lapis all default_stone.png^mcl_core_mineral_lapis.png
+
+# Who the fuck thought renaming the mushrooms to farming_ was a good idea?
+mcl_mushrooms:mushroom_brown all flowers_mushroom_brown.png
+mcl_mushrooms:mushroom_red all flowers_mushroom_red.png
+
+# I can fuck with the other fences another time... fix oak fences
+mcl_fences:fence * default_wood.png
+mcl_fences:fence_rail * default_wood.png
+
+# kan man röka morötter?
+
+# Make the spruce forests nice, using existing MTG textures
+mcl_core:podzol top default_rainforest_litter.png
+mcl_core:podzol sides default_dirt.png^default_rainforest_litter_side.png
+# this is actually kinda inaccurate (spruce should be darker) but oh well... TODO
+mcl_core:sprucetree sides default_pine_tree.png
+mcl_core:sprucetree top,bottom default_pine_tree_top.png
+mcl_core:spruceleaves all default_pine_needles.png
+mcl_core:spruceleaves special1 default_pine_needles_simple.png
+mcl_core:sprucewood all default_pine_wood.png
+
+# snö
+mcl_core:dirt_with_grass_snow sides default_dirt.png^default_snow_side.png
+
