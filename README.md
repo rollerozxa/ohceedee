@@ -1,2 +1,2 @@
 # OhCeeDee
-Flat geometrical Minetest texture pack inspired by FVDisco's oCd Minecraft resource pack.
+Flat geometrical Luanti texture pack inspired by FVDisco's oCd resource pack.

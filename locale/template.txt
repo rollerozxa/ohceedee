@@ -1,0 +1,3 @@
+# textdomain: ohceedee
+
+Flat geometrical texture pack inspired by FVDisco's oCd resource pack.=
